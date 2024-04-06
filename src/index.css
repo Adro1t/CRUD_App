@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+label {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5b6165;
+}
+
+label > span {
+  color: red;
+}
+
+input {
+  padding: 16px;
+  border-radius: 6px;
+}
+
+input:placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #8d9396;
+}
+
+option {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #8d9396;
+}
+
+th,
+td {
+  padding: 20px;
+}
